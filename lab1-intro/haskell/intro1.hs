@@ -15,11 +15,12 @@ r5 = [1,3,4,1]
 r6 = [1..5]
 
 inc n = n + 1
-
+r13 = inc 8
 r7 = map inc [1..3]
 r8 = map (diff 2) [1..3]
 r9 = map sqrt [1..3]
 
+r14 = zip [1..3] [1..3] 
 r10 = zip [1..3] (map sqrt [1..3])
 r11 = zip [1..3] (map sqrt [1..2])
 
